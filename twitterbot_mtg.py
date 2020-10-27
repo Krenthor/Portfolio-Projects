@@ -3,8 +3,8 @@ from selenium.webdriver.common.keys import Keys
 import time
 
 
-password1 = 'password4twitter'
-username1 = 'shiva27shiva@gmail.com'
+password1 = 'insert password'
+username1 = 'insert username/email'
 
 
 class TwitterBot:
