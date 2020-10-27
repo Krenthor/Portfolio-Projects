@@ -8,8 +8,8 @@ import time #automate text message
 
 
 # twilio info
-account_sid = 'AC3925064efd87bcf1babad99605c5b095'
-auth_token = '014e986fa3ee4bb87ea747d3fe02c9d3'
+account_sid = 'insert account_sid'
+auth_token = 'insert auth_token'
 client = Client(account_sid, auth_token)
 
 
@@ -33,8 +33,8 @@ def scrape():
     message = client.messages \
         .create(
             body=final,
-            from_='+16202209554',
-             to='+13606096137'
+            from_='+'from number'',
+             to='+'to number''
          )
 
     print(message.sid)
